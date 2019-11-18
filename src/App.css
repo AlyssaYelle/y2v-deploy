@@ -1,22 +1,90 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative|Oswald&display=swap');
+
+
+body {
+   font-family: 'Oswald', sans-serif;
+   background-color: #f7f5f6;
+   height: 100%;
+   position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
+  background-color: white;
+  position: fixed;
+  width: 100vw;
+  border-bottom: 1px solid #ccbac4;
+  padding-bottom: 10px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  min-height: 80px;
+  box-shadow: 2px 0 10px 5px #ede8eb;
+  z-index: 1;
 }
 
-.App-link {
-  color: #09d3ac;
+h1 {
+  margin: 0 0 0 20px;
+  font-family: 'Cinzel Decorative', cursive;
+  color: #2b0f19;
+  font-size: 2.25rem;
+}
+
+nav {
+  margin: 0 50px 0 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #400102;
+  margin: 0 5%;
+  font-size: 1.5rem;
+  transition: color .75s ease-in-out;
+}
+
+nav a:hover {
+  color: #7656b0;
+}
+
+span {
+  /* text-shadow: 0 0 0.35em #bf8e9f, 0 0 0.35em #bf8e9f, 0 0 0.35em #bf8e9f; */
+	letter-spacing: 3px;
+  color: #7656b0;
+  font-size: 2.6rem;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.component {
+  padding-top: 150px;
+  width: 90%;
+  margin: 0 auto 80px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+* {
+ box-sizing: border-box;
+}
+
+*:before,
+*:after {
+ box-sizing: border-box;
+}
+
+.App {
+ min-height: 100vh; /* will cover the 100% of viewport */
+ overflow: hidden;
+ display: block;
+ position: relative;
+ padding-bottom: 100px; /* height of your footer */
+}
+
+footer {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
 }
