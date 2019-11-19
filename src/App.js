@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Link
 } from 'react-router-dom';
@@ -15,13 +15,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Router>
+        <Router basename="/">
           <header>
             <h1>
               <span>Yelle</span> into the void
             </h1>
             <nav>
-              <Link className="nav-link" to={process.env.PUBLIC_URL + '/'}>Art</Link>
+              <Link className="nav-link" to="/">Art</Link>
               <Link className="nav-link" to="/about">About</Link>
             </nav>
           </header>
