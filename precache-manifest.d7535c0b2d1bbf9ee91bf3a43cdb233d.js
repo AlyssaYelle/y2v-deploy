@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a06f0c93ecb1b0312b3f8bb86ec308a5",
+    "revision": "294bfdcca22a0523042104de0ae34e1e",
     "url": "/y2v-deploy/index.html"
   },
   {
-    "revision": "95140963dd3a6aaac81d",
+    "revision": "0220a5737bbdd9fbf778",
     "url": "/y2v-deploy/static/css/main.51fb57d2.chunk.css"
   },
   {
-    "revision": "8d7144b720249b341308",
-    "url": "/y2v-deploy/static/js/2.de8b60fc.chunk.js"
+    "revision": "75358f644d5cd6a70d86",
+    "url": "/y2v-deploy/static/js/2.c1ca24cb.chunk.js"
   },
   {
-    "revision": "95140963dd3a6aaac81d",
-    "url": "/y2v-deploy/static/js/main.4a454f77.chunk.js"
+    "revision": "0220a5737bbdd9fbf778",
+    "url": "/y2v-deploy/static/js/main.aa1c8de1.chunk.js"
   },
   {
     "revision": "448c7bc904b785012eb4",
