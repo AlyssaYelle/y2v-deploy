@@ -2,3 +2,13 @@
   margin: 0 0;
   padding: 0 0;
 }
+
+a {
+  text-decoration: none;
+  color: #ff0080;
+  transition: color .5s ease-in-out;
+}
+
+a:hover {
+  color: #d6caeb;
+}

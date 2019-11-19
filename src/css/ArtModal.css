@@ -33,6 +33,8 @@
   display: block;
   width: auto;
   height: 80vh;
+  -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
 }
 
 /* Caption of Modal Image */

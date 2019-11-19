@@ -1,33 +1,33 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative|Oswald&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day|Josefin+Slab&display=swap');
 
 body {
-   font-family: 'Oswald', sans-serif;
+   font-family: 'Josefin Slab', serif;
    background-color: #f7f5f6;
    height: 100%;
    position: relative;
 }
 
 header {
-  background-color: white;
+  background-color: black;
   position: fixed;
   width: 100vw;
-  border-bottom: 1px solid #ccbac4;
+  border-bottom: 1px solid black;
   padding-bottom: 10px;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-between;
   min-height: 80px;
-  box-shadow: 2px 0 10px 5px #ede8eb;
+  box-shadow: 2px 0 10px 5px black;
   z-index: 1;
 }
 
 h1 {
-  margin: 0 0 0 20px;
-  font-family: 'Cinzel Decorative', cursive;
-  color: #2b0f19;
-  font-size: 2.25rem;
+  margin: 0 0 0 15px;
+  font-family: 'Dawning of a New Day', cursive;
+  color: #d6caeb;
+  font-size: 52px;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
 }
 
 nav {
@@ -36,24 +36,18 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #400102;
+  color: #d6caeb;
   margin: 0 5%;
-  font-size: 1.5rem;
-  transition: color .75s ease-in-out;
+  font-size: 36px;
+  transition: color .5s ease-in-out;
 }
 
 nav a:hover {
-  color: #7656b0;
+  color: #ff0080;
 }
 
 span {
-  /* text-shadow: 0 0 0.35em #bf8e9f, 0 0 0.35em #bf8e9f, 0 0 0.35em #bf8e9f; */
-	letter-spacing: 3px;
-  color: #7656b0;
-  font-size: 2.6rem;
-  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-             0px 8px 13px rgba(0,0,0,0.1),
-             0px 18px 23px rgba(0,0,0,0.1);
+  font-size: 62px;
 }
 
 .component {

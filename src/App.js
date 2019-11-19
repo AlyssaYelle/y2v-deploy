@@ -21,7 +21,7 @@ class App extends Component {
               <span>Yelle</span> into the void
             </h1>
             <nav>
-              <Link className="nav-link" to="/">Art</Link>
+              <Link className="nav-link" to={process.env.PUBLIC_URL + '/'}>Art</Link>
               <Link className="nav-link" to="/about">About</Link>
             </nav>
           </header>
