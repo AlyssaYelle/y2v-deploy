@@ -12,3 +12,16 @@ a {
 a:hover {
   color: #d6caeb;
 }
+
+h2 {
+  font-size: 36px;
+}
+
+p {
+  font-size: 24px;
+}
+
+article {
+  width: 60%;
+  margin: 0 auto;
+}

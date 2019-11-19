@@ -28,7 +28,7 @@ class Art extends Component {
             "songUri": "7IxAZG49yA14FHkFADeseO"
         },
         {
-            "artTitle": "untitled",
+            "artTitle": "stoicism",
             "artDesc": "you asked me why my voice croaks and i wince every time i try to smile so i am painting you this",
             "artLink": "https://github.com/AlyssaYelle/yelle-intothevoid/raw/master/y2v-frontend/public/assets/scream.png",
             "songTitle": "there's nothing at 4th & king but a train station",
@@ -60,14 +60,6 @@ class Art extends Component {
             "songUri": "3c1ZxZ6Sz3xMHQRNU2OGln"
         },
         {
-            "artTitle": "decay",
-            "artDesc": "tell me where it hurts, he said. everywhere, everywhere, everywhere...",
-            "artLink": "https://github.com/AlyssaYelle/yelle-intothevoid/raw/master/y2v-frontend/public/assets/IMG_6463.png",
-            "songTitle": "special death",
-            "songArtist": "mirah",
-            "songUri": "5AFoX9H10J4L6er3LXkFhO"
-        },
-        {
             "artTitle": "loss",
             "artDesc": "for jeffrey, forever ago",
             "artLink": "https://github.com/AlyssaYelle/yelle-intothevoid/raw/master/y2v-frontend/public/assets/ghosts.png",
@@ -77,7 +69,7 @@ class Art extends Component {
         },
         {
             "artTitle": "cul sec",
-            "artDesc": "j'aime la biere",
+            "artDesc": "liberté, egalité, biere-eté",
             "artLink": "https://github.com/AlyssaYelle/yelle-intothevoid/raw/master/y2v-frontend/public/assets/IMG_1743.png",
             "songTitle": "tous les memes",
             "songArtist": "stromae",
