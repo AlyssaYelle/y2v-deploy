@@ -1,7 +1,13 @@
 .artImg {
-  width: 30%;
+  /* width: 30%; */
   height: 25vw;
   margin: 2vw 1vw;
+}
+
+.lazyload-wrapper {
+  width: 30%;
+  /* height: 25vw;
+  margin: 2vw 1vw; */
 }
 
 img {

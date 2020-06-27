@@ -28,6 +28,7 @@ class ArtImg extends Component {
     })
   }
 
+
   render(props) {
     return (
       <div className='artImg'>
@@ -37,7 +38,7 @@ class ArtImg extends Component {
       }
       <img
         onClick={this.displayModal}
-        src={this.props.info["artLink"]}
+        src={require( `${ this.props.imageSource }` )}
         alt={this.props.info["artTitle"]}
         style={{cursor:'pointer'}}
       />
