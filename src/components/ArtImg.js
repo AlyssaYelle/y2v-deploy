@@ -33,7 +33,7 @@ class ArtImg extends Component {
     return (
       <div className='artImg'>
       {this.state.isModalDisplayed ?
-        <ArtModal info={this.props.info} close={this.closeModal} />
+        <ArtModal info={this.props.info} close={this.closeModal} imageSource={this.props.imageSource}/>
         : ''
       }
       <img

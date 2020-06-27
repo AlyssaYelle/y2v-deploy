@@ -13,7 +13,7 @@ class ArtModal extends Component {
       <div id="myModal" className="modal">
         <span className="close" onClick={this.props.close}>×</span>
         <div className="modal-content">
-          <img className="modal-img" id="img01" src={this.props.info["artLink"]} alt=""/>
+          <img className="modal-img" id="img01" src={require( `${ this.props.imageSource }` )} alt=""/>
           <div id="caption">
             <h3>{this.props.info["artTitle"]}</h3>
             <Player uri={this.props.info["songUri"]} title={this.props.info["songTitle"]}/>
