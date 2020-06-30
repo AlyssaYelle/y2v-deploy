@@ -22,15 +22,6 @@ class Art extends Component {
             "path": 'harm-min.png'
         },
         {
-            "artTitle": "it's fashun, hunny",
-            "artDesc": "you woudn't understand",
-            "artLink": "https://github.com/AlyssaYelle/yelle-intothevoid/raw/master/y2v-frontend/public/assets/IMG_6707.png",
-            "songTitle": "evelyn",
-            "songArtist": "kim tillman",
-            "songUri": "7IxAZG49yA14FHkFADeseO",
-            "path": 'IMG_6707-min.png'
-        },
-        {
             "artTitle": "stoicism",
             "artDesc": "you asked me why my voice croaks and i wince every time i try to smile so i am painting you this",
             "artLink": "https://github.com/AlyssaYelle/yelle-intothevoid/raw/master/y2v-frontend/public/assets/scream.png",
@@ -67,15 +58,6 @@ class Art extends Component {
             "path": 'IMG_7780-min.png'
         },
         {
-            "artTitle": "loss",
-            "artDesc": "hide my ashes in the most beautiful canyon",
-            "artLink": "https://github.com/AlyssaYelle/yelle-intothevoid/raw/master/y2v-frontend/public/assets/ghosts.png",
-            "songTitle": "fourth of july",
-            "songArtist": "sufjan stevens",
-            "songUri": "4K3RZJ8sWPbv0IedcnEfw6",
-            "path": 'ghosts-min.png'
-        },
-        {
             "artTitle": "cul sec",
             "artDesc": "liberté, egalité, biere-eté",
             "artLink": "https://github.com/AlyssaYelle/yelle-intothevoid/raw/master/y2v-frontend/public/assets/IMG_1743.png",
@@ -83,15 +65,6 @@ class Art extends Component {
             "songArtist": "stromae",
             "songUri": "1GC1MIaRMW3kfVK9VyD5Ii",
             "path": 'IMG_1743-min.png'
-        },
-        {
-            "artTitle": "untitled",
-            "artDesc": "bare your soul & become the sun",
-            "artLink": "https://github.com/AlyssaYelle/yelle-intothevoid/raw/master/y2v-frontend/public/assets/IMG_6580.png",
-            "songTitle": "broken land",
-            "songArtist": "the bones of j.r. jones",
-            "songUri": "49QhVXEB8yQW635WvWA9mT",
-            "path": 'IMG_6580-min.png'
         },
         {
             "artTitle": "saint sisters",
