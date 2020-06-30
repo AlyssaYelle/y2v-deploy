@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/y2v-deploy/precache-manifest.59ebad51e8736807652f13194e657a14.js"
+  "/y2v-deploy/precache-manifest.a76a07510c13ece5e22587ab8f405a2a.js"
 );
 
 self.addEventListener('message', (event) => {
